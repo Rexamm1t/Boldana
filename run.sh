@@ -26,6 +26,39 @@ clear
 echo "start boldana-project..."
 echo "loading.."
 sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading..."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading"
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading.."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading..."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading.."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading..."
+sleep 0.5
+clear
 sleep 3
 
 clear
@@ -57,7 +90,11 @@ echo "1/3 - Zsh настроен"
 echo "2/3 - Шрифты установлен"
 echo "3/3 - Окружение настроено"
 sleep 1
-source ~/.zshrc
-echo "Установка завершена успешно"
+echo "Установка завершена успешно!"
 sleep 1
-echo "boldana project. by Rexamm1t. Thank you!
+echo "boldana (v.0.1.5). by Rexamm1t. Thank you!"
+sleep 3
+
+clear
+cd
+source ~/.zshrc
