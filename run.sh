@@ -66,6 +66,7 @@ clear
 pkg install zsh -y
 chsh -s zsh
 rm -rf ~/.zshrc
+rm -rf ~/.bashrc
 cp ost/.zshrc ~/
 clear
 echo "1/4 - Zsh настроен"
