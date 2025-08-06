@@ -63,6 +63,14 @@ sleep 3
 
 clear
 
+echo "Установка необходимых компонентов..."
+pkg install python clang wget zip vim
+clear 
+echo "Установка необходимых компонентов закончена..."
+sleep 2
+
+clear
+
 pkg install zsh -y
 chsh -s zsh
 rm -rf ~/.zshrc
