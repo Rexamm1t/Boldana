@@ -11,7 +11,7 @@ alias neofetch='neofetch --ascii_distro arch'
 alias ls='lsd -all'
 
 #PROMPT
-PROMPT='%F{#FF5F87} Wefol1x%f%F{#D7D787}%f%F{#5FD7FF} $termux%f%F{#FFAF00} ❯ %F{#8787AF}[%d]%f
+PROMPT='%F{#FF5F87} User%f%F{#D7D787}%f%F{#5FD7FF} $termux%f%F{#FFAF00} ❯ %F{#8787AF}[%d]%f
 %F{#FF5F87}  ➜%f %F{#5FAFFF}%1~%f %F{#FF5F87}➜%f '
 RPROMPT='$(git_prompt_info) %F{#5FAFFF}[%*]%f'
 
