@@ -2,6 +2,31 @@ clear
 
 echo "start boldana-project..."
 sleep 3
+clear
+echo "start boldana-project..."
+echo "loading"
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading.."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading..."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading."
+sleep 0.5
+clear
+echo "start boldana-project..."
+echo "loading.."
+sleep 0.5
+sleep 3
 
 clear
 
@@ -28,6 +53,11 @@ echo "3/3 - Окружение настроено"
 sleep 2
 
 clear
-echo "Сейчас вам нужно повторно нажать Enter для завершения..."
-exit
-exit
+echo "1/3 - Zsh настроен"
+echo "2/3 - Шрифты установлен"
+echo "3/3 - Окружение настроено"
+sleep 1
+source ~/.zshrc
+echo "Установка завершена успешно"
+sleep 1
+echo "boldana project. by Rexamm1t. Thank you!
