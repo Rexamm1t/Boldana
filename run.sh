@@ -97,4 +97,5 @@ sleep 3
 
 clear
 cd
+rm -rf Boldana
 source ~/.zshrc
