@@ -68,28 +68,31 @@ chsh -s zsh
 rm -rf ~/.zshrc
 cp ost/.zshrc ~/
 clear
-echo "1/3 - Zsh настроен"
+echo "1/4 - Zsh настроен"
 sleep 2
 
 rm -rf .termux/font.ttf
 cp ost/font.ttf .termux
 clear 
-echo "1/3 - Zsh настроен"
-echo "2/3 - Шрифты установлен"
+echo "1/4 - Zsh настроен"
+echo "2/4 - Шрифт установлен"
 sleep 2
 
 pkg install neofetch -y
 clear
-echo "1/3 - Zsh настроен"
-echo "2/3 - Шрифты установлен"
-echo "3/3 - Окружение настроено"
+echo "1/4 - Zsh настроен"
+echo "2/4 - Шрифт установлен"
+echo "3/4 - Окружение настроено"
 sleep 2
 
-clear
-echo "1/3 - Zsh настроен"
-echo "2/3 - Шрифты установлен"
-echo "3/3 - Окружение настроено"
-sleep 1
+pkg install lsd -y
+echo "1/4 - Zsh настроен"
+echo "2/4 - Шрифт установлен"
+echo "3/4 - Окружение настроено"
+echo "4/4 - lsd установлен"
+sleep 2
+
+
 echo "Установка завершена успешно!"
 sleep 1
 echo "boldana (v.0.1.5). by Rexamm1t. Thank you!"
