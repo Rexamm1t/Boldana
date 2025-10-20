@@ -80,8 +80,8 @@ clear
 echo "1/4 - Zsh настроен"
 sleep 2
 
-rm -rf .termux/font.ttf
-cp ost/font.ttf .termux
+rm -rf ~/.termux/font.ttf
+cp ~/Boldana/ost/font.ttf ~/.termux
 clear 
 echo "1/4 - Zsh настроен"
 echo "2/4 - Шрифт установлен"
@@ -94,6 +94,7 @@ echo "2/4 - Шрифт установлен"
 echo "3/4 - Окружение настроено"
 sleep 2
 
+clear
 pkg install lsd -y
 echo "1/4 - Zsh настроен"
 echo "2/4 - Шрифт установлен"
@@ -109,5 +110,5 @@ sleep 3
 
 clear
 cd
-rm -rf Boldana
+rm -rf ~/Boldana
 source ~/.zshrc
